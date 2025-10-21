@@ -16,6 +16,7 @@ Requirements:
 -	torchvision
 -	numpy
 Steps to follow:
+
 1: Create conda environment by:
 
 conda create -n mnist python=3.10 -y
@@ -38,8 +39,3 @@ python main.py --network cnn --epochs 8 --bs 64 --lr 0.001
 python main.py --network lstm --epochs 10 --bs 128 --lr 0.001 --hidden_size 128 --num_layers 1
 
 The MNIST dataset will be downloaded automatically on first run.
-
-
-### 1. Create and activate a Python environment
-conda create -n mnist python=3.10 -y
-conda activate mnist
